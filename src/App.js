@@ -1,10 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// components
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+
 const App = () => {
     return (
         <>
-            <h1>Rendered successfully</h1>
+            <Header />
+            <Main />
+            <Footer />
         </>
     );
 }
