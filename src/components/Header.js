@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container header__container">
         <div>
           <h3>
-            <span class="material-symbols-outlined" style={{fontSize: "20px"}}>restaurant</span>Logo
+            <span className="material-symbols-outlined" style={{fontSize: "20px"}}>shopping_bag</span>Logo
           </h3>
         </div>
         <nav>
@@ -19,7 +19,7 @@ const Header = () => {
             </li>
             <li className="navbar__item">
               <button className="btn__primary btn__primary--icon">
-                <span class="material-symbols-outlined">shopping_cart</span>Cart
+                <span className="material-symbols-outlined">shopping_cart</span>Cart
               </button>
             </li>
           </ul>
